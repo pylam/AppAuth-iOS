@@ -31,7 +31,7 @@ static NSString *const kIssuer = @"https://accounts.google.com";
     @discussion For Google, register your client at
         https://console.developers.google.com/apis/credentials?project=_
  */
-static NSString *const kClientID = @"YOUR_CLIENT.apps.googleusercontent.com";
+static NSString *const kClientID = @"637758811211-jhuddp7ubcn9bedev15ds8ncrvenh9ud.apps.googleusercontent.com";
 
 /*! @brief The OAuth client secret.
     @discussion For Google, register your client at
@@ -46,7 +46,7 @@ static NSString *const kClientSecret = @"YOUR_CLIENT_SECRET";
         'oauthredirect' here to help disambiguate from any other use of this scheme.
  */
 static NSString *const kRedirectURI =
-    @"com.googleusercontent.apps.YOUR_CLIENT:/oauthredirect";
+    @"com.googleusercontent.apps.637758811211-jhuddp7ubcn9bedev15ds8ncrvenh9ud:/oauthredirect";
 
 /*! @brief Post-authorization redirect URI.
     @discussion This is the URL that users will be redirected to after the OAuth flow is complete.
